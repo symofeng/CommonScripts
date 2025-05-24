@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-KNOWN_HOSTS="/Users/symofeng/.ssh/known_hosts"
+KNOWN_HOSTS="$HOME/.ssh/known_hosts"
 SCRIPT_PATH="$0"
 
 function run_expect {
